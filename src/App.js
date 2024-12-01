@@ -1,7 +1,15 @@
+import logo from "./logo.svg";
+import "./App.css";
+
 function App() {
   return (
-    <div>
-      <h1>Mahunan Degbelo</h1>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>Mahunan Degbelo</p>
+      </header>
     </div>
   );
 }
+
+export default App;
